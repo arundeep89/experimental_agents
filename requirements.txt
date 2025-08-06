@@ -4,3 +4,4 @@ openai-agents
 requests
 gradio
 pypdf
+sendgrid
