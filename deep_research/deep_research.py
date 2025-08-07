@@ -1,12 +1,13 @@
 import gradio as gr
 from dotenv import load_dotenv
-from research_manager import ResearchManager
+# from research_manager import ResearchManager
+from report_manager import ReportManager
 
 load_dotenv(override=True)
 
 
 async def run(query: str):
-    async for chunk in ResearchManager().run(query):
+    async for chunk in ReportManager().run(query):
         yield chunk
 
 
