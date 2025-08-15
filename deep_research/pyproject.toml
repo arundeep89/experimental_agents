@@ -1,0 +1,11 @@
+[project]
+name = "deep_research"
+version = "0.1.0"
+requires-python = ">=3.10,<3.14"
+dependencies = [
+    "gradio>=5.42.0",
+    "openai>=1.99.9",
+    "openai-agents>=0.2.7",
+    "python-dotenv>=1.1.1",
+    "sendgrid>=6.12.4",
+]
