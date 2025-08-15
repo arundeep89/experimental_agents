@@ -12,7 +12,7 @@ First, if you haven't already, install uv:
 pip install uv
 ```
 
-Next, navigate to your project directory, create a virtual environment, activate it and install the dependencies: uv tool install crewai
+Next, navigate to your project directory, install the dependencies: uv tool install crewai
 
 (Optional) Lock the dependencies and install them by using the CLI command:
 ```bash
@@ -21,6 +21,7 @@ crewai install
 ### Customizing
 
 **Add your `OPENAI_API_KEY` into the `.env` file**
+**Add your `GEMINI_API_KEY` into the `.env` file**
 
 - Modify `src/debate/config/agents.yaml` to define your agents
 - Modify `src/debate/config/tasks.yaml` to define your tasks
