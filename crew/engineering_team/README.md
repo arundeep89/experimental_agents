@@ -52,3 +52,6 @@ For support, questions, or feedback regarding the EngineeringTeam Crew or crewAI
 - [Chat with our docs](https://chatg.pt/DWjSBZn)
 
 Let's create wonders together with the power and simplicity of crewAI.
+
+## Note:
+Code generated failed to compile and run, needs additional work
