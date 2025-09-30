@@ -1,0 +1,10 @@
+python-dotenv
+gradio
+langgraph
+langchain
+langchain-community
+langchain-openai
+playwright
+asyncio
+pydantic
+wikipedia
