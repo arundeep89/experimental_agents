@@ -10,3 +10,4 @@ This project demonstrates basic text generation using the official Google GenAI 
 ```bash
 uv add -r requirements.txt -c constraints.txt
 ```
+4. uv run app.py
