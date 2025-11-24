@@ -1,6 +1,7 @@
 # Gemini API - Basic Text Generation
 
 This project demonstrates basic text generation using the official Google GenAI SDK.
+Reference: https://github.com/googleapis/python-genai/blob/main/README.md
 
 ## Setup
 
