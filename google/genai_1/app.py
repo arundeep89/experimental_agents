@@ -36,8 +36,6 @@ def main():
     # Check if API key is set
     if not os.getenv('GEMINI_API_KEY'):
         print("Error: GEMINI_API_KEY not found in environment variables.")
-        print("Please create a .env file with your API key.")
-        print("See .env for reference.")
         return
     
     print("\n🚀 Gemini API Basic Text Generation Examples")
