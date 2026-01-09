@@ -5,8 +5,8 @@ from pypdf import PdfReader
 import gradio as gr
 
 load_dotenv(override=True)
-google_api_key = os.getenv('GOOGLE_API_KEY')
-model_name= "gemini-2.0-flash"
+google_api_key = os.getenv('GEMINI_API_KEY')
+model_name= "gemini-2.5-flash"
 
 class Me:
 
